@@ -75,10 +75,6 @@ public class UserResource {
     }
 
 
-    @GetMapping("/hello")
-    public String hello() {
-        return "hello";
-    }
 
     /**
      * POST  /users  : Creates a new user.
